@@ -51,7 +51,7 @@ extraReducers: (builder) => builder
         state.user = {
         name: null,
         email: null,
-};
+        };
         state.token = null;
         state.isLoggedIn = false;
         state.isLoading = false;
